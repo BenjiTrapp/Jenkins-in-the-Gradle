@@ -69,6 +69,7 @@ task resolveTestPlugins(type: Copy) {
             mapping[it.file.name] = "${it.name}.${it.extension}"
         }
     }
+
     rename { mapping[it] }
 
     doLast {

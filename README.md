@@ -77,3 +77,6 @@ TODO
     │       └── groovy ..               # specs
     ├── views                           # DSL script files for the view(s)
     └── build.gradle                    # build file
+    
+## Links
+API für die Jenkins-Job-DSL:         https://jenkinsci.github.io/job-dsl-plugin/#

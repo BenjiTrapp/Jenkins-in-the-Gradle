@@ -20,20 +20,15 @@ enum Views {
         this.pattern = pattern
     }
 
-    def viewName() {
-        return name
-    }
+    def viewName() {return name}
 
-    def pattern() {
-        return pattern
-    }
+    def pattern() {return pattern}
 
     def static viewNames() {
         List<String> result = new ArrayList<>()
 
-        for (Views v : values()) {
-            result.add(v.viewName())
-        }
+        for (Views v : values()) {result.add(v.viewName())}
+
         return result
     }
 }

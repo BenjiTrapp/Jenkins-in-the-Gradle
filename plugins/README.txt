@@ -1,0 +1,1 @@
+Insert your (own written) plugins here to install them into the dockerized jenkins
